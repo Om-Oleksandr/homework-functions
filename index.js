@@ -37,7 +37,7 @@ if (checkNumber(firstNumber)) {
  * compare values
  * @param {any} arg1 
  * @param {any} arg2 
- * @returns {number | null}
+ * @returns {any | null}
  */
 const compareValues = function (arg1, arg2) {
   if (typeof arg1 === typeof arg2) {
